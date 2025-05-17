@@ -1,6 +1,6 @@
 {
   "name": "multitenant-nodemailer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Used with multitenant-express to create a nodemailer instance for each tenant",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/miketerry-org/multitenant-nodemailer#readme",
   "dependencies": {
+    "multitenant-express": "^0.1.4",
     "nodemailer": "^7.0.3"
   },
   "devDependencies": {
